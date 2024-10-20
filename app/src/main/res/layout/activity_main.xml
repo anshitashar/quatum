@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/gameGrid"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="100dp"
+        android:columnCount="5"
+        android:rowCount="5" />
+
+    <TextView
+        android:id="@+id/playerTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1's Turn"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
